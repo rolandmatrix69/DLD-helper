@@ -25,7 +25,6 @@
          <nav className="hidden md:flex gap-6 items-center text-sm text-slate-700 font-sans">
            <a href="#features" className="hover:text-slate-900">Features</a>
            <a href="#demo" className="hover:text-slate-900">Interactive Demo</a>
-           <a href="#whyus" className="hover:text-slate-900">Why Us</a>
            <Button className="ml-2" onClick={() => navigate('/login')}>Get Started</Button>
          </nav>
          <div className="md:hidden">
