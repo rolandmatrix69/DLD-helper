@@ -62,7 +62,7 @@
              <motion.h2
                initial={{ y: 20, opacity: 0 }}
                animate={{ y: 0, opacity: 1 }}
-               transition={{ duration: 0.45 }}
+               transition={{ duration: 0.75 }}
                className="text-4xl md:text-5xl font-heading font-extrabold leading-tight"
              >
                Learn Digital Logic

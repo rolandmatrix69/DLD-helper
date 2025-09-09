@@ -2,7 +2,7 @@ import React from 'react'
 
 function Assignments() {
   return (
-    <div>Assignments</div>
+    <div>Welcome to Assignments</div>
   )
 }
 

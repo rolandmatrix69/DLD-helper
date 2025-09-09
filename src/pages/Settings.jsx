@@ -2,7 +2,7 @@ import React from 'react'
 
 function Settings() {
   return (
-    <div>Settings</div>
+    <div>Change and cuiustomize your Settings</div>
   )
 }
 

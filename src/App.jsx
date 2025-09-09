@@ -25,7 +25,7 @@ export default function App() {
 
         {/* LMS app section (with sidebar layout) */}
         <Route path="/app" element={<AppLayout />}>
-          <Route index element={<Dashboard />} />
+          <Route path="dashboard" element={<Dashboard />} />
           <Route path="courses" element={<Courses />} />
           <Route path="assignments" element={<Assignments />} />
           <Route path="profile" element={<Profile />} />
