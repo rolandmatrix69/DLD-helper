@@ -13,12 +13,12 @@ function Sidebar({active, setActive}) {
         { name: "Settings", icon: Settings },
     ]
   return (
-    <div className="w-64 bg-white shadow-xl flex flex-col p-6">
+    <div className="w-64 bg-white shadow-xl flex flex-col p-6 dark:bg-gray-700">
           <div className="flex flex-col items-center mb-3">
             <img
               src = {user}
               alt="profile"
-              className="rounded-full"
+              className="rounded-full "
             />
             <h2 className="font-semibold">John Doe</h2>
             <p className="text-sm text-gray-500">Student</p>
@@ -29,7 +29,7 @@ function Sidebar({active, setActive}) {
               <Button
                 key={item.name}
                 variant={active === item.name ? "default" : "ghost"}
-                className="flex items-center justify-start gap-2"
+                className="flex items-center justify-start gap-2 "
                 onClick={() => {
                     setActive(item.name)
                     navigate(`/app/${item.name.toLowerCase()}`);

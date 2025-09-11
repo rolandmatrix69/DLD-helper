@@ -1,6 +1,7 @@
  import React, { useState } from 'react';
  import { useNavigate } from 'react-router-dom';
  import { Button } from '@/components/ui/Button';
+ import { DarkMode } from '@/components/ui/DarkMode';
  import { Card, CardContent } from '@/components/ui/card';
  import { ArrowRight } from 'lucide-react';
  import { motion } from 'framer-motion';
@@ -10,7 +11,7 @@
    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
    return (
-     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900 font-sans">
+     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900 font-sans dark:bg-gray-700 dark:text-white">
        {/* HEADER */}
        <header className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
          <div className="flex items-center gap-4">
@@ -26,6 +27,7 @@
            <a href="#features" className="hover:text-slate-900">Features</a>
            <a href="#demo" className="hover:text-slate-900">Interactive Demo</a>
            <Button className="ml-2" onClick={() => navigate('/login')}>Get Started</Button>
+           <DarkMode />
          </nav>
          <div className="md:hidden">
            <Button

@@ -1,21 +1,11 @@
 import { Bell, Sun, Moon } from "lucide-react"
-import { useState, useEffect } from "react"
 
-export default function DashboardHeader() {
-  const [isDarkMode, setIsDarkMode] = useState(false)
-
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add("dark")
-    } else {
-      document.documentElement.classList.remove("dark")
-    }
-  }, [isDarkMode])
+export default function DashboardHeader({ isDarkMode, setIsDarkMode }) {
 
   return (
     <header className="flex justify-between items-center mb-6">
       <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-        StudyHub - Student Dashboard
+        Welcome, John Doe {/*To Be replaced by user name*/}
       </h1>
       <div className="flex items-center gap-3">
         <button

@@ -1,4 +1,8 @@
-export default function AchievementsPanel({ achievements }) {
+export default function AchievementsPanel() {
+  const achievements = [
+    { id: 1, title: "Top Scorer: Logic Design", date: "Aug 2025" },
+    { id: 2, title: "Best Team Project", date: "July 2025" },
+  ]
     return (
       <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
         <h2 className="text-lg font-semibold mb-2">Achievements</h2>

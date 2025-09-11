@@ -23,7 +23,7 @@ export const Button = React.forwardRef(
       "inline-flex items-center justify-center font-medium rounded-xl transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none";
 
     const variants = {
-      default: "bg-slate-900 text-white hover:bg-slate-700",
+      default: "bg-slate-900 text-white hover:bg-slate-700 dark:hover:bg-gray-700",
       outline: "border border-slate-300 hover:bg-slate-100",
       ghost: "hover:bg-slate-100",
     };
