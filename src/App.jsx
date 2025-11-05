@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 // Pages
 import LandingPage from "./pages/LandingPage"
- import AppLayout from "./components/AppLayout"
- import Dashboard from "./pages/Dashboard"
- import Courses from "./pages/Courses"
- import Assignments from "./pages/Assignments"
- import Profile from "./pages/Profile"
- import Settings from "./pages/Settings"
+import AppLayout from "./components/AppLayout"
+import Dashboard from "./pages/Dashboard"
+import Courses from "./pages/Courses"
+import Assignments from "./pages/Assignments"
+import Profile from "./pages/Profile"
+import Settings from "./pages/Settings"
 import Login from "./pages/Login"
 import NotFound from "./pages/NotFound"
 
